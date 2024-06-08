@@ -1,3 +1,9 @@
+//     ╭───────────────────────────────────────────╮
+//     │             Copyright (c)                 │
+//     │           ────────────────                │
+//     │        Avrnos, All Rights Reserved        │
+//     ╰───────────────────────────────────────────╯
+
 import { HttpClient, RequestConfig, HttpResponse } from './HttpClient';
 
 export class FetchClient extends HttpClient {

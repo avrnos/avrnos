@@ -1,3 +1,9 @@
+//     ╭───────────────────────────────────────────╮
+//     │             Copyright (c)                 │
+//     │           ────────────────                │
+//     │        Avrnos, All Rights Reserved        │
+//     ╰───────────────────────────────────────────╯
+
 export class EmailValidator {
     private static emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 

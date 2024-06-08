@@ -1,6 +1,11 @@
+//     ╭───────────────────────────────────────────╮
+//     │             Copyright (c)                 │
+//     │           ────────────────                │
+//     │        Avrnos, All Rights Reserved        │
+//     ╰───────────────────────────────────────────╯
+
 import { FetchClient } from '../src/FetchClient';
 import { AxiosClient } from '../src/AxiosClient';
-import { Interceptors } from '../src/Interceptors';
 import { AxiosRequestConfig } from 'axios'; // Import AxiosRequestConfig
 
 // JSONPlaceholder base URL

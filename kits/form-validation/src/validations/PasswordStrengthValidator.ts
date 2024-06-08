@@ -1,3 +1,9 @@
+//     ╭───────────────────────────────────────────╮
+//     │             Copyright (c)                 │
+//     │           ────────────────                │
+//     │        Avrnos, All Rights Reserved        │
+//     ╰───────────────────────────────────────────╯
+
 export class PasswordStrengthValidator {
     static validate(value: string): boolean {
         // A strong password must have at least 8 characters, including a number, a lowercase letter, an uppercase letter, and a special character.

@@ -1,3 +1,9 @@
+//     ╭───────────────────────────────────────────╮
+//     │             Copyright (c)                 │
+//     │           ────────────────                │
+//     │        Avrnos, All Rights Reserved        │
+//     ╰───────────────────────────────────────────╯
+
 export interface RequestConfig {
     headers?: Record<string, string>;
     timeout?: number;

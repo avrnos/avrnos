@@ -1,4 +1,9 @@
-import mongoose from 'mongoose';
+//     ╭───────────────────────────────────────────╮
+//     │             Copyright (c)                 │
+//     │           ────────────────                │
+//     │        Avrnos, All Rights Reserved        │
+//     ╰───────────────────────────────────────────╯
+
 import { User, IUser } from './models/user';
 
 class Database {

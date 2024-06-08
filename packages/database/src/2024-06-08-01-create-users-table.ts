@@ -1,3 +1,9 @@
+//     ╭───────────────────────────────────────────╮
+//     │             Copyright (c)                 │
+//     │           ────────────────                │
+//     │        Avrnos, All Rights Reserved        │
+//     ╰───────────────────────────────────────────╯
+
 import { MigrationInterface, QueryRunner, Table } from 'typeorm';
 
 export class CreateUsersTable1640000010000 implements MigrationInterface {
