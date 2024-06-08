@@ -1,20 +1,39 @@
 {
   "name": "discord",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Main Discord bot for Avrnos",
+  "type": "commonjs",
+  "main": "./main/main.js",
+  "_moduleAliases": {
+    "@root": "main"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node -r tsconfig-paths/register main/main.js",
+    "build": "tsc",
+    "server": "nodemon ./main/main.js",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "description": "",
+  "license": "MIT",
   "devDependencies": {
+    "@types/node": "^20.14.2",
+    "@types/ws": "^8.5.10",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.2",
+    "husky": "^9.0.11",
+    "run-script-os": "^1.1.6",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   },
   "dependencies": {
     "discord.js": "^14.15.3",
-    "dotenv": "^16.4.5"
+    "is-ci": "^3.0.1",
+    "module-alias": "^2.2.3"
   }
 }
