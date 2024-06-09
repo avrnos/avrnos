@@ -1,8 +1,8 @@
 
-node_modules/
-.cmd
-.sh
-main/
+*node_modules/
+*.cmd
+*.sh
+*main/
 .env
-.vscode
-.VSCodeCounter
+*.vscode
+*.VSCodeCounter
